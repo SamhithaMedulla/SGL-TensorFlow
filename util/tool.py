@@ -264,4 +264,4 @@ def log_loss(yij, name="log_loss"):
     """ bpr loss
     """
     with tf.name_scope(name):
-        return -tf.log_sigmoid(yij)
+        return -tf.math.log_sigmoid(yij)

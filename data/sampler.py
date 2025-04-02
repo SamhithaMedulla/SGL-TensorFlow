@@ -4,7 +4,8 @@
 from util import DataIterator
 from util.cython.random_choice import batch_randint_choice, randint_choice
 from util import tool
-from collections import Iterable, defaultdict
+from collections.abc import Iterable
+from collections import defaultdict
 import numpy as np
 
 

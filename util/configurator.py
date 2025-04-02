@@ -156,3 +156,8 @@ class Configurator(object):
 
     def __repr__(self):
         return self.__str__()
+    
+    
+    def add_config(self, key, value):
+        """Adds or overrides a configuration value dynamically."""
+        self.alg_arg[key] = str(value)

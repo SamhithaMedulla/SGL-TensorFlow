@@ -1,0 +1,8 @@
+2025-03-31 21:49:19.401: amazon-book_given_u0_i0
+2025-03-31 21:49:19.402: Dataset name: amazon-book
+The number of users: 52643
+The number of items: 91599
+The number of ratings: 2984108
+Average actions of users: 56.69
+Average actions of items: 32.58
+The sparsity of the dataset: 99.938115%

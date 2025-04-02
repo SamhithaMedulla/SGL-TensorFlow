@@ -1,0 +1,57 @@
+2025-04-01 20:31:58.918: Dataset name: amazon-book
+The number of users: 52643
+The number of items: 91599
+The number of ratings: 2984108
+Average actions of users: 56.69
+Average actions of items: 32.58
+The sparsity of the dataset: 99.938115%
+2025-04-01 20:31:58.919: 
+
+NeuRec hyperparameters:
+recommender=SGL
+config_dir=./conf
+gpu_id=0
+gpu_mem=0.5
+data.input.path=dataset
+data.input.dataset=amazon-book
+data.column.format=UI
+data.convert.separator=','
+user_min=0
+item_min=0
+splitter=given
+ratio=0.8
+by_time=False
+metric=["Precision", "Recall", "NDCG", "MAP", "MRR"]
+topk=[20]
+group_view=None
+rec.evaluate.neg=0
+test_batch_size=128
+num_thread=8
+start_testing_epoch=0
+proj_path=C:/Users/samhi/Documents/SGL-TensorFlow/
+
+SGL's hyperparameters:
+seed=2021
+aug_type=1
+reg=1e-4
+embed_size=64
+n_layers=3
+ssl_reg=0.5
+ssl_ratio=0.5
+ssl_temp=0.5
+ssl_mode=both_side
+lr=0.001
+learner=adam
+adj_type=pre
+epochs=1000
+batch_size=2048
+num_negatives=1
+init_method=xavier_uniform
+stddev=0.01
+verbose=1
+stop_cnt=50
+pretrain=0
+save_flag=0
+
+2025-04-01 20:32:08.126: metrics:	Precision@20	Recall@20   	NDCG@20     	MAP@20      	MRR@20      
+2025-04-01 20:32:37.271: 		0.00013298  	0.00022597  	0.00020293  	0.00053723  	0.00053745  
